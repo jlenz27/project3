@@ -15,40 +15,30 @@ function takeForm(event) {
 }
 
 function makeBeepCalculations(number1) {
-    let numberOutput = "";
-    
+    let numberOutput = [];
     for (let i = 0; i <= number1; i++) {
-        numberOutput += i + " "
-    
-
+       numberOutput.push(i);
     }
-    return numberOutput;
+    for (let i=0; i <= numberOutput.length -1; i++){
+        if (numberOutput[i].toString().includes(3)) {
+          numberOutput[i] = "Won't you be my neighbor?"
+        }
+    //     else if (numberOutput[i].toString().includes(2)) {
+    //       numberOutput[i] = "Boop!"
+    //     }
+    //     else if (numberOutput[i].toString().includes(1)) {
+    //       numberOutput[i] = "Beep!"
+    //     };
+    //   };
+
+      const finalOutput = numberOutput.join(", ");
+
+
+
+    return finalOutput;
 }
 
 
-// if (i === 1) {
-
-//     numberOutput += "beep";
-// } else {
-//     numberOutput += number1[i];
-// }
-
-// }
-
-// function makeBeepCalculations(number1) {
-//     let numbers = [];
-//     for (let i = 0; i <= number1; i++) {
-//         let strNumber = number1[i].toString();
-//         if(strNumber.includes("1")){
-//             numbers.replace(i,"beep")
-//             numbers.push(i);
-//         }
-
-//         numbers.push(i);
-//     }
-//     return numbers;
-
-// }
 
 
 //User Interface Logic
