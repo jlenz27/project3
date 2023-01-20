@@ -15,13 +15,41 @@ function takeForm(event) {
 }
 
 function makeBeepCalculations(number1) {
-    let numbers = [];
+    let numberOutput = "";
+    
     for (let i = 0; i <= number1; i++) {
-        numbers.push(i);
-    }
-    return numbers;
+        numberOutput += i + " "
+    
 
+    }
+    return numberOutput;
 }
+
+
+// if (i === 1) {
+
+//     numberOutput += "beep";
+// } else {
+//     numberOutput += number1[i];
+// }
+
+// }
+
+// function makeBeepCalculations(number1) {
+//     let numbers = [];
+//     for (let i = 0; i <= number1; i++) {
+//         let strNumber = number1[i].toString();
+//         if(strNumber.includes("1")){
+//             numbers.replace(i,"beep")
+//             numbers.push(i);
+//         }
+
+//         numbers.push(i);
+//     }
+//     return numbers;
+
+// }
+
 
 //User Interface Logic
 
