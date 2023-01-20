@@ -33,3 +33,41 @@ _https://jlenz27.github.io/Portfolio/_
 _If you have any issues running this program or wish to contact me please email me at John.lenz29@gmail.com_
 
 Copyright (c) 1/06/2023 John Lenz(s)
+
+
+Test:
+Describe: makeBeepCalculations()
+
+Test: "It should 0 to input number."
+Code:
+const number1 = 5;
+makeBeepCalculations(number1);
+Expected Output: 0 ,1, 2, 3, 4, 5
+
+
+Test:
+Describe: makeBeepCalculations()
+
+Test: "replace 1 with beep."
+Code:
+const number1 = 5;
+makeBeepCalculations(number1);
+Expected Output: 0 ,beep, 2, 3, 4, 5
+
+Test:
+Describe: makeBeepCalculations()
+
+Test: "replace 2 with boop."
+Code:
+const number1 = 5;
+makeBeepCalculations(number1);
+Expected Output: 0 ,1, boop, 3, 4, 5
+
+Test:
+Describe: makeBeepCalculations()
+
+Test: "replace 3 with Wont you be my neighbor."
+Code:
+const number1 = 5;
+makeBeepCalculations(number1);
+Expected Output: 0 ,1, 2, wont you be my neighbor, 4, 5
