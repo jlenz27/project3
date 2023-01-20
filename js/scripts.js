@@ -1,11 +1,29 @@
-function handleFormSubmission() {
-    event.preventDefault();
-    const firstLength = parseInt(document.querySelector("input#input1").value);
-    document.getElementById("total-count").innerText = firstLength;
-    console.log(firstLength);
+//Business Logic
 
+window.onload = initialize
+
+function initialize() {
+  let form = document.querySelector("form")
+  form.onsubmit = takeForm
 }
 
-window.addEventListener("load", function () {
-    document.querySelector("form#input1").addEventListener("submit", handleFormSubmission);
-});
+function takeForm(event) {
+  event.preventDefault()
+  let number1= parseInt(document.getElementById("number1").value)
+  let numberArray = makeBeepCalculations(number1)
+  displayArray(numberArray)
+}
+
+function makeBeepCalculations(number1) {
+
+
+
+  //User Interface Logic
+
+  function displayArray(numberArray) {
+    let ulFromArray = makeULFromArray(array)
+    let output = document.getElementById("output")
+    output.innerText = ""
+   output.append(ulFromArray)
+  }
+  
