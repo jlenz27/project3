@@ -12,14 +12,16 @@
 
 ## Description
 
-_This is a webpage that is used to display a portfolio of John Lenz, It uses HTML and CSS to make and stylize the website. It shows basic concepts of HTML and styling with CSS. It inclues a list of projects that he is currently working on along with contact information_
+_This website takes a user number and creates an array from 0 to the input number.The array is then manipulated so that if a number has a one it is changed to "beep" if it has a two it is changed to "boop and if it has a three it is changed to "wont you be my neighbor. There is a manipulation heiarchy so that multiple cases are only met with a single output_
 
 ## GitHub Link
 _https://jlenz27.github.io/Portfolio/_
 
 ## Setup/Installation Requirements
 * _Download Repository
-* _Run this program with an Web browser of your choosing_
+* _Open the index.html with a browser that supports HTML_
+*_Input a number and click the submit button_
+
 
 
 ## Known Bugs
@@ -32,7 +34,7 @@ _https://jlenz27.github.io/Portfolio/_
 
 _If you have any issues running this program or wish to contact me please email me at John.lenz29@gmail.com_
 
-Copyright (c) 1/06/2023 John Lenz(s)
+Copyright (c) 1/20/2023 John Lenz(s)
 
 
 Test:
