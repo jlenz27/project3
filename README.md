@@ -15,7 +15,7 @@
 _This website takes a user number and creates an array from 0 to the input number.The array is then manipulated so that if a number has a one it is changed to "beep" if it has a two it is changed to "boop and if it has a three it is changed to "wont you be my neighbor. There is a manipulation heiarchy so that multiple cases are only met with a single output_
 
 ## GitHub Link
-_https://jlenz27.github.io/Portfolio/_
+_https://github.com/jlenz27/project3.git_
 
 ## Setup/Installation Requirements
 * _Download Repository
