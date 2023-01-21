@@ -1,11 +1,11 @@
-# _John Lenz Portfolio_
+# _John Lenz Project Number 3_
 
 #### By _**John Lenz**_
 
-#### _A portfolio that talks about John and some of his hobbies along with a list of current projects that he is working on_
+#### _A website that takes in a number from the user and returns an string that is manipulated based of certain rules_
 
 ## Technologies Used
-
+*_Javascript_
 * _HTML_
 * _CSS_
 
